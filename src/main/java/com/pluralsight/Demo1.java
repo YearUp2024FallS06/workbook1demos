@@ -15,9 +15,16 @@ public class Demo1 {
         //String greeting = "Hello Matt";
 
         int numberOfDaysPerWeekWatchesTV = 5;
+
+
+
         int minutesPerDayOnDayWatchedOnAverage = 70;
 
         int minutesPerWeek = numberOfDaysPerWeekWatchesTV * minutesPerDayOnDayWatchedOnAverage;
+        //int minutesPerWeek = 5 * 70;
+       // int minutesPerWeek = 350;
+
+
         int minutesPerYear = minutesPerWeek * 52;
 
         int hoursPerYear = minutesPerYear / 60;
@@ -31,7 +38,7 @@ public class Demo1 {
 
         System.out.println("If " + name + " did not watch TV, it would be like a " + workWeeksPerYearWatchingTV + " week vacation every year");
         System.out.println("If " + name + " did not watch TV, it would be like a " + workWeeksPerYearWatchingTV2 + " week vacation every year");
-        
+
 
         System.out.println(greeting);
 
