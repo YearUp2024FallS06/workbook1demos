@@ -21,7 +21,7 @@ public class Demo4 {
         System.out.print("On average, how many day a week do you watch TV? ");
         int numberOfDaysPerWeekWatchesTV = s.nextInt();
         s.nextLine();
-        s.next
+     //   s.next
         //int numberOfDaysPerWeekWatchesTV = 5;
 
         System.out.print("When you do watch tv, how many minutes do you watch? ");
